@@ -1,5 +1,5 @@
 def roll_call_dwarves(dwarves)
-  dwarves.each_with_index {|index, dwarf| puts "#{index}#{dwarf}" if dwarves.length > 0}
+  dwarves.each_with_index {|index, dwarf| puts "#{index} #{dwarf}" if dwarves.length > 0}
 
 end
 
